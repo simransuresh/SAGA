@@ -1,0 +1,8 @@
+time_reformat.py
+read_sla_currents.py
+plot_anim.py
+temp_mean.py
+
+-- quiver plot nicer
+-- coastlines using pygmt
+

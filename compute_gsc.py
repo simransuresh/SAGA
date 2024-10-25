@@ -21,6 +21,7 @@ Re = 6371008 # 6399593.6259 / 6371008 m
 ############## dataset
 lats = np.array(lat[:,0])
 lons = np.array(lon[0,:])
+# print(lats, lons)
 
 ds = xr.Dataset({'dot': (['lat', 'lon'], dot), 'mdt': (['lat', 'lon'], mdt), 'ug': (['lat', 'lon'], ug), 'vg': (['lat', 'lon'], vg)}, 
                 coords={'lon': lons, 'lat': lats})
